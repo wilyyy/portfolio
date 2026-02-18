@@ -13,25 +13,31 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-   metadataBase: new URL("https://www.williamlaurel.com/"),
+   metadataBase: new URL("https://www.williamlaurel.com"),
    title: {
       default: "William Alvarez | Developer based in Vancouver, Canada",
       template: "%s | William Alvarez",
    },
    description:
       "The craft of William Laurel Alvarez, a fullstack developer with a passion for human centered design.",
-   alternates: {
-      canonical: "https://www.williamlaurel.com/",
-   },
    openGraph: {
       type: "website",
       siteName: "William Alvarez | Developer based in Vancouver, Canada",
       title: "William Alvarez | Developer based in Vancouver, Canada",
       description:
          "The craft of William Laurel Alvarez, a fullstack developer with a passion for human centered design.",
-      url: "https://www.williamlaurel.com/",
    },
-   applicationName: "William Alvarez | Developer based in Vancouver, Canada",
+   twitter: {
+      card: "summary_large_image",
+      title: "William Alvarez | Developer based in Vancouver, Canada",
+      description:
+         "The craft of William Laurel Alvarez, a fullstack developer with a passion for human centered design.",
+   },
+   robots: {
+      index: true,
+      follow: true,
+   },
+   applicationName: "William Alvarez",
    appleWebApp: {
       title: "William Alvarez | Developer based in Vancouver, Canada",
    },

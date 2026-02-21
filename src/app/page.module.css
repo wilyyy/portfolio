@@ -22,15 +22,18 @@
 }
 
 .cta {
-   width: 250px;
-   padding: 20px;
-   background: #0b0f14;
-   color: #fafafa;
-   border: none;
+   width: 270px;
+   padding: 10px 20px;
+   background: #fafafa;
+   color: #0b0f14;
    border-radius: 40px;
+   border: 2px solid #0b0f14;
    cursor: pointer;
+   font-weight: bold;
 
    &:hover {
       background: #141a22;
+      color: #fafafa;
+      transition: 0.7s;
    }
 }

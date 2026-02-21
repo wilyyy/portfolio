@@ -12,6 +12,14 @@ export default function Home() {
             <p>📍 Vancouver, Canada</p>
             <p>2026 portfolio — currently in progress</p>
             <a
+               href="https://cal.com/william-laurel-alvarez"
+               target="_blank"
+               rel="noopener noreferrer"
+               className={styles.cta}
+            >
+               Get in touch 📞
+            </a>
+            <a
                href="https://portfolio-v2-git-main-wilyyy.vercel.app/"
                target="_blank"
                rel="noopener noreferrer"
